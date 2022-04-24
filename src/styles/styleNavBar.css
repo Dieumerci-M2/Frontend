@@ -1,0 +1,32 @@
+.mainNavbar {
+  background-color: var(--bgColor);
+  color: var(--whiteColor);
+  height: 70px;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 4px rgba(0, 22, 44, 0.1);
+}
+.contentUser {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  cursor: pointer;
+}
+.logo {
+  border: 2px solid var(--bgColor);
+}
+.logo img {
+  height: 65px;
+}
+.imgUser img {
+  height: 35px;
+  /* margin-right:13px; */
+}
+.contentUser .nameUser {
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--whiteColor);
+  transform: translateY(5px);
+}
